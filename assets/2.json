@@ -1,0 +1,20 @@
+{
+  "name": "martesdefiant_spotify",
+  "symbol": "",
+  "animation_url": "2.html",
+  "properties": {
+    "category": "html",
+    "files": [
+      {
+        "uri": "2.html",
+        "type": "text/html"
+      }
+    ],
+    "creators": [
+      {
+        "address": "INSERT_CREATOR_WALLET_ADDRESS_HERE",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "defilatam_spotify",
+  "symbol": "",
+  "animation_url": "1.html",
+  "properties": {
+    "category": "html",
+    "files": [
+      {
+        "uri": "1.html",
+        "type": "text/html"
+      }
+    ],
+    "creators": [
+      {
+        "address": "INSERT_CREATOR_WALLET_ADDRESS_HERE",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "belopodcast_spotify",
+  "symbol": "",
+  "animation_url": "0.html",
+  "properties": {
+    "category": "html",
+    "files": [
+      {
+        "uri": "0.html",
+        "type": "text/html"
+      }
+    ],
+    "creators": [
+      {
+        "address": "INSERT_CREATOR_WALLET_ADDRESS_HERE",
+        "share": 100
+      }
+    ]
+  }
+}
