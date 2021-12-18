@@ -76,7 +76,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="container">
+      <div className={walletAddress ? 'authed-container' : 'container'}>
         <div className="header-container">
           <p className="header">🎙️ Podcast Drop <i className="fa fa-spotify" style={{fontSize:48,color:"#1DB954"}}></i></p>
           <p className="sub-text">NFT drop machine with fair mint of the best podcasts from Argentina's crypto community </p>
