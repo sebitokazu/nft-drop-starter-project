@@ -6,6 +6,8 @@ import CandyMachine from "./CandyMachine";
 // Constants
 const TWITTER_HANDLE = "_buildspace";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+const TWITTER_PROFILE = "seba_itokazu";
+const PROFILE_LINK = `https://twitter.com/${TWITTER_PROFILE}`;
 
 const App = () => {
   const [walletAddress, setWalletAddress] = useState(null);
@@ -76,8 +78,8 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">🍭 Candy Drop</p>
-          <p className="sub-text">NFT drop machine with fair mint</p>
+          <p className="header">🎙️ Podcast Drop <i className="fa fa-spotify" style={{fontSize:48,color:"#1DB954"}}></i></p>
+          <p className="sub-text">NFT drop machine with fair mint of the best podcasts from Argentina's crypto community </p>
           {/* Render your connect to wallet button right here */}
           {!walletAddress && renderNotConnectedContainer()}
         </div>
@@ -86,12 +88,21 @@ const App = () => {
 
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
+          <p className="footer-text"> built on&nbsp;
           <a
             className="footer-text"
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`@${TWITTER_HANDLE}`}</a>
+          </p>
+          &nbsp;by&nbsp;
+          <a
+            className="footer-text"
+            href={PROFILE_LINK}
+            target="_blank"
+            rel="noreferrer"
+          >{`@${TWITTER_PROFILE}`}</a>
         </div>
       </div>
     </div>
