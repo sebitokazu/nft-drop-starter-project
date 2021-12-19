@@ -384,7 +384,7 @@ const CandyMachine = ({ walletAddress }) => {
           <p className="sub-text">Sold Out ⛔</p>
         ) : (
           <button className="cta-button mint-button" onClick={mintToken} disabled={isMinting}>
-            Mint NFT (0.5 SOL)
+            Mint NFT (0.1 SOL)
           </button>
         )}
         {/* If we have mints available in our array, let's render some items */}
